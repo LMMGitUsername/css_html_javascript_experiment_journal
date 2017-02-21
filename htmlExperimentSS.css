@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 8, 2016, 12:51:31 AM
+    Author     : Despreciada
+*/
+@font-face{
+    font-family:"quickNdirty";
+    src:url("quickNdirty.ttf");
+}
+
+.myImpossibleToReadFont{
+    font-family: "quickNdirty";
+	font-size: 100px;
+}
+
+#introDiv{
+    color:white;
+    font-family:fantasy, Palatino, serif;
+    text-align:right;
+    background-image:url("blurryCeilingFan.jpg");
+}
+
+.focusOnMe{
+    /*border:2px,orange,dotted;*/
+    text-indent:3em;
+}
+
+.niceTypo{
+    /*get typo n me photo in here somehow.
+    Learned about this css transition stuff today (3/8/2016) at http://www.w3schools.com/cssref/css3_pr_transition-property.asp)*/
+      
+    -webkit-transition-property: width; /* Safari */
+    -webkit-transition-duration: 2s; /* Safari */
+    transition-property: width;
+    transition-duration: 2s;
+}
+#wowee{
+    /*also, the ode to toki link should be here. https://www.youtube.com/watch?v=hKfSCSgdLJA.*/
+    width: 10px;
+    height: 10px;
+    background-image: url("blurryTypoNme.jpg");
+    -webkit-transition-property: background-image; /* Safari */
+    -webkit-transition-duration: 3s; /* Safari */
+    transition-property: background-image;
+    transition-duration: 3s;
+}
+
+#wowee:hover {
+    background-image:url("https://www.youtube.com/watch?v=hKfSCSgdLJA");
+}
+
+#philosophyAndTeaDayPizzaOverdose{
+    background-image:url("blurryWApizza.jpg");
+	color:white;
+}
